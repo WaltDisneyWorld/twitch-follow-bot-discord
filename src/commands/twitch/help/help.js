@@ -24,7 +24,7 @@ module.exports = class TestCommand extends BaseCommand {
       timestamp: new Date(),
       footer: {
         icon_url: client.user.avatarURL,
-        text: "quixZz"
+        text: "Wizzy"
       }
     }
   });
