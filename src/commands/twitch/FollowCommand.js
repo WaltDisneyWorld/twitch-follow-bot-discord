@@ -28,15 +28,11 @@ module.exports = class FollowCommand extends BaseCommand {
             }
 
 			if (message.member.roles.cache.has('828744416915095602')) {
-                if (args[1] > 50) {
-				return message.channel.send({embed: {
-					color: 16776960,
-					description: "You can not use more than ``50`` followers with the **Basic** plan"
-				  }});
+                const (args[1] == 50) });
             }};
 
 			if (message.member.roles.cache.has('828744411738800209')) {
-                if (args[1] > 4080) {
+                const (args[1] == 4080) {
 				return message.channel.send({embed: {
 					color: 16776960,
 					description: "You can not use more than ``4080`` followers with the **Gold** plan"
