@@ -1,0 +1,20 @@
+export declare function getEnvTemplate(token: string, prefix: string): string;
+export declare function getMainFile(): string;
+export declare function getMainFileTS(): string;
+export declare function getTypescriptBotFile(): string;
+export declare function getRegistryFileTS(): string;
+export declare function getRegistryFile(): string;
+export declare function getBaseCommand(): string;
+export declare function getBaseCommandTS(): string;
+export declare function getBaseEvent(): string;
+export declare function getBaseEventTS(): string;
+export declare function getReadyEvent(): string;
+export declare function getReadyEventTS(): string;
+export declare function getMessageEvent(): string;
+export declare function getMessageEventTS(): string;
+export declare function getTestCommand(): string;
+export declare function getTestCommandTS(): string;
+export declare function getCommandTemplate(name: string, category: string): string;
+export declare function getCommandTemplateTS(name: string, category: string): string;
+export declare const TSCONFIG = "\n{\n  \"compilerOptions\": {\n    \"target\": \"es6\",\n    \"module\": \"commonjs\",\n    \"outDir\": \"./build\",\n    \"esModuleInterop\": true,\n  }\n}\n";
+//# sourceMappingURL=templates.d.ts.map

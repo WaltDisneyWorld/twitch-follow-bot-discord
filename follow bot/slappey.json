@@ -1,0 +1,7 @@
+{
+    "name": "tfollow bot",
+    "language": "javascript",
+    "manager": "npm",
+    "token": "token go here",
+    "prefix": "/"
+}
